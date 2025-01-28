@@ -18,6 +18,11 @@ let trayectoria = [
     descripcion:
       "Una vez terminé el grado superior, quise ampliar mi formación mediante este Bootcamp. Así pude ampliar mi base de conocimiento para ampliar y afianzar mis habilidades laborales",
   },
+  {
+    nombre: "Freelance",
+    año: '2024 - 2025',
+    descripcion: 'Mientras curso el bootcamp, he empezado a hacer algunos trabajos como freelance que pronto estarán publicados.'
+  }
 ];
 
 let proyectos = [
@@ -424,7 +429,7 @@ function renderizarCard(proyectos) {
     badgeContainer.classList.add("card__icon-container");
 
     // Generar badge según la categoría
-    proyecto.categoria.forEach((categoria) => {
+    proyectos.categoria.forEach((categoria) => {
       let badge;
       switch (categoria) {
         case "práctica":
