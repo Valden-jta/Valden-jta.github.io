@@ -429,7 +429,7 @@ function renderizarCard(proyectos) {
     badgeContainer.classList.add("card__icon-container");
 
     // Generar badge según la categoría
-    proyectos.categoria.forEach((categoria) => {
+    proyecto.categoria.forEach((categoria) => {
       let badge;
       switch (categoria) {
         case "práctica":
