@@ -141,7 +141,7 @@ let proyectos = [
     categoria: ["front end", "maquetacion"],
     descripcion: "Maquetación de productos de tienda online",
     tags: ["ICONESTUDIO", "Wordpress", "Elementor", "WooCommerce"],
-    imagenes: ["../imagenes/uniformesYolanda/uniformes_yolanda.png"],
+    imagenes: ["../imagenes/uniformerYolanda/uniformes_yolanda.png"],
   },
   {
     nombre: "Bodegas Valmenia",
