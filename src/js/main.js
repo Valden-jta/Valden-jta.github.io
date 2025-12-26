@@ -20,9 +20,10 @@ let trayectoria = [
   },
   {
     nombre: "Freelance",
-    año: '2024 - 2025',
-    descripcion: 'Mientras curso el bootcamp, he empezado a hacer algunos trabajos como freelance que pronto estarán publicados.'
-  }
+    año: "2024 - 2025",
+    descripcion:
+      "Mientras curso el bootcamp, he empezado a hacer algunos trabajos como freelance que pronto estarán publicados.",
+  },
 ];
 
 let proyectos = [
@@ -110,7 +111,7 @@ let proyectos = [
     nombre: "Iconestudio",
     año: 2024,
     url: "https://www.iconestudio.es/",
-    categoria: ['front end', 'maquetacion'],
+    categoria: ["front end", "maquetacion"],
     descripcion: "Maquetación de paginas y secciones.",
     tags: ["bootstrap", "php", "JavaScript"],
     imagenes: ["../imagenes/tiendaOnline/tienda_online_1.png"],
@@ -118,102 +119,111 @@ let proyectos = [
   {
     nombre: "Vicedomini",
     año: 2024,
-    url: 'https://vicedomini.es/blog/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación de entradas de blog',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/vicedomini/vicedomini.png'],
+    url: "https://vicedomini.es/blog/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de entradas de blog",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/vicedomini/vicedomini.png"],
   },
   {
-    nombre: 'El rincon de Anter',
+    nombre: "El rincon de Anter",
     año: 2024,
-    url: 'https://elrincondeanter.es/tienda-online/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación y configuración de tienda online',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor', 'WooCommerce'],
-    imagenes: ['../imagenes/rinconAnter/rincon_de_anter.png'],
+    url: "https://elrincondeanter.es/tienda-online/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación y configuración de tienda online",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor", "WooCommerce"],
+    imagenes: ["../imagenes/rinconAnter/rincon_de_anter.png"],
   },
   {
-    nombre: 'Uniformes Yolanda',
-    año:  2024,
-    url: 'https://uniformesyolanda.com/tienda/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación de productos de tienda online',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor', 'WooCommerce'],
-    imagenes: ['../imagenes/uniformesYolanda/uniformes_yolanda.png'],
-  },
-  {
-    nombre: 'Bodegas Valmenia',
+    nombre: "Uniformes Yolanda",
     año: 2024,
-    url: 'https://bodegasvalmenia.com/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación y diseño responsive',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/valmenia/valmenia.png'],
+    url: "https://uniformesyolanda.com/tienda/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de productos de tienda online",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor", "WooCommerce"],
+    imagenes: ["../imagenes/uniformesYolanda/uniformes_yolanda.png"],
   },
   {
-    nombre:  'Asesoras de imagen',
+    nombre: "Bodegas Valmenia",
     año: 2024,
-    url:' https://asesorasdeimagen.com/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación y diseño responsive',
-    tags:['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/asesoras/asesoras.png'],
+    url: "https://bodegasvalmenia.com/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación y diseño responsive",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/valmenia/valmenia.png"],
   },
   {
-    nombre: 'Cortadores Madrid',
+    nombre: "Asesoras de imagen",
     año: 2024,
-    url: 'https://cortadoresmadrid.es/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación y diseño responsive',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/cortadores/cortadores.png'],
+    url: " https://asesorasdeimagen.com/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación y diseño responsive",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/asesoras/asesoras.png"],
   },
   {
-    nombre: 'Mediterranean Camper',
+    nombre: "Cortadores Madrid",
     año: 2024,
-    url: 'https://mediterraneancamper.es/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación de contenidos',
-    tags: ['ICONESTUDIO','Wordpress', 'WPBakery'],
-    imagenes: ['../imagenes/mediterranean/mediterranean.png'],
+    url: "https://cortadoresmadrid.es/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación y diseño responsive",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/cortadores/cortadores.png"],
   },
   {
-    nombre: 'Redwork Solutions',
+    nombre: "Mediterranean Camper",
     año: 2024,
-    url: 'https://redworks.com.es/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación de contenidos',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/redworks/redworks.png'],
+    url: "https://mediterraneancamper.es/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de contenidos",
+    tags: ["ICONESTUDIO", "Wordpress", "WPBakery"],
+    imagenes: ["../imagenes/mediterranean/mediterranean.png"],
   },
   {
-    nombre: 'Sala Sambara 81',
+    nombre: "Redwork Solutions",
     año: 2024,
-    url: 'https://salasambara81.es/',
-    categoria: ['front end', 'maquetacion'],
-    descripcion: 'Maquetación de contenidos',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/sambara81/sambara81.png'],
+    url: "https://redworks.com.es/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de contenidos",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/redworks/redworks.png"],
   },
   {
-    nombre: 'Agencia Europea de Comunicación',
+    nombre: "Sala Sambara 81",
     año: 2024,
-    url: 'https://aecv.eu/',
-     descripcion: 'Maquetación de contenidos',
-    descripcion: 'Maquetación de contenidos',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/mediterranean/mediterranean.png'],
+    url: "https://salasambara81.es/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de contenidos",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/sambara81/sambara81.png"],
   },
   {
-    nombre: 'Fisio Legazpi',
+    nombre: "Agencia Europea de Comunicación",
     año: 2024,
-    url: 'https://fisiolegazpi.eu/',
-     descripcion: 'Maquetación de contenidos',
-    descripcion: 'Maquetación de contenidos',
-    tags: ['ICONESTUDIO','Wordpress', 'Elementor'],
-    imagenes: ['../imagenes/fisiolegazpi/fisiolegazpi.png'],
+    url: "https://aecv.eu/",
+     categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de contenidos",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/mediterranean/mediterranean.png"],
   },
+  {
+    nombre: "Fisio Legazpi",
+    año: 2024,
+    url: "https://fisiolegazpi.eu/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de contenidos",
+    tags: ["ICONESTUDIO", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/fisiolegazpi/fisiolegazpi.png"],
+  },
+  {
+    nombre: "Desafío Paintball",
+    año: 2025,
+    url: "https://www.desafiopaintball.com/",
+    categoria: ["front end", "maquetacion"],
+    descripcion: "Maquetación de contenidos",
+    tags: ["FREELANCE", "Wordpress", "Elementor"],
+    imagenes: ["../imagenes/desafiopaintball/desafiopaintball.png"]
+  }
 ];
 
 console.log("Lista de proyectos", proyectos);
@@ -428,28 +438,30 @@ function renderizarCard(proyectos) {
     let badgeContainer = document.createElement("ul");
     badgeContainer.classList.add("card__icon-container");
 
-    // Generar badge según la categoría
-    proyecto.categoria.forEach((categoria) => {
-      let badge;
-      switch (categoria) {
-        case "práctica":
-          badge = practicaHTML;
-          break;
-        case "programación":
-          badge = programacionHTML;
-          break;
-        case "front end":
-          badge = frontEndHTML;
-          break;
-        case "back end":
-          badge = backEndHTML;
-          break;
-        default:
-          badge = "";
-          break;
-      }
-      badgeContainer.innerHTML += badge;
-    });
+    // Generar badge según la categoría (proteger si no existe)
+    if (Array.isArray(proyecto.categoria)) {
+      proyecto.categoria.forEach((categoria) => {
+        let badge;
+        switch (categoria) {
+          case "práctica":
+            badge = practicaHTML;
+            break;
+          case "programación":
+            badge = programacionHTML;
+            break;
+          case "front end":
+            badge = frontEndHTML;
+            break;
+          case "back end":
+            badge = backEndHTML;
+            break;
+          default:
+            badge = "";
+            break;
+        }
+        badgeContainer.innerHTML += badge;
+      });
+    }
 
     // Render de datos
     card.innerHTML += `
@@ -510,8 +522,8 @@ function imagenCarrusel(proyectos) {
 //! Side Panel
 
 abrirSidePanel = () => {
-  document.getElementById("sidePanel").classList.remove('--fade-out');
-  document.getElementById("sidePanel").classList.add('--fade-in');
+  document.getElementById("sidePanel").classList.remove("--fade-out");
+  document.getElementById("sidePanel").classList.add("--fade-in");
   if (window.innerWidth > 900) {
     document.getElementById("sidePanel").style.display = "flex";
     document.getElementById("sidePanel").style.left = "75%";
@@ -519,7 +531,6 @@ abrirSidePanel = () => {
       "-7px -1px 32px 7px rgba(24, 13, 13, 0.75)";
     console.log("abrir");
   } else if (window.innerWidth <= 850 && window.innerWidth > 640) {
-  
     document.getElementById("sidePanel").style.display = "flex";
     document.getElementById("sidePanel").style.left = "25%";
     document.getElementById("sidePanel").style.boxShadow =
@@ -536,8 +547,8 @@ abrirSidePanel = () => {
 };
 
 cerrarSidePanel = () => {
-  document.getElementById("sidePanel").classList.remove('--fade-in');
-  document.getElementById("sidePanel").classList.add('--fade-out');
+  document.getElementById("sidePanel").classList.remove("--fade-in");
+  document.getElementById("sidePanel").classList.add("--fade-out");
   document.getElementById("sidePanel").style.display = "none";
   document.getElementById("sidePanel").style.left = "100%";
   document.getElementById("sidePanel").style.boxShadow = "";
